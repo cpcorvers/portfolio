@@ -13,4 +13,4 @@ font:
 # images on the sites
 images:
   logo: "{{ site.baseurl }}/img/logos/devakmakerij.png"
-  background: "/img/header-bg.png"
+  background: "{{ site.baseurl }}/img/header-bg.png"
