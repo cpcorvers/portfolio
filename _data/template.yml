@@ -12,4 +12,5 @@ font:
 
 # images on the sites
 images:
-  logo: ' {{ site.url }}{{ site.baseurl }} /img/logos/devakmakerij.png '
+  logo: url(' {{ site.url }}{{ site.baseurl }} /img/logos/devakmakerij.png ');
+  background: url(' {{ site.url }}{{ site.baseurl }}/img/header-bg.png');
