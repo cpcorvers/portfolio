@@ -1,3 +1,5 @@
+This site is published via Github on https://cpcorvers.github.io/portfolio/
+
 Agency Jekyll theme
 ====================
 
@@ -5,7 +7,7 @@ Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/templ
 
 # How to use
 
-###Portfolio 
+###Portfolio
 
 Portfolio projects are in '/_posts'
 
