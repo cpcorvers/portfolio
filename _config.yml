@@ -24,7 +24,7 @@ github_username:  cpcorvers
 
 # Build settings
 markdown: kramdown
-theme: agency-jekyll-theme
+remote_theme: agency-jekyll-theme
 plugins:
   - jekyll-feed
 
