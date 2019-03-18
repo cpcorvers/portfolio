@@ -1,15 +1,15 @@
 ---
-title: Round Icons
-subtitle: Graphic Design
+title: Mensenhandel in beeld
+subtitle: Workshop
 layout: default
-modal-id: 6
-date: 2014-07-15
+modal-id: 1
+date: 2015-07-15
 img: roundicons.png
 thumbnail: roundicons-thumbnail.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+project-date: Oktober 2015
+client: Comensha
+category: Workshop
+description: Creeeren van bewustwording bij gemeentefunctionarissen over de bestuurlijke problematiek rondom mensenhandel vanuit het slachtoffer perspectief.
 
 ---

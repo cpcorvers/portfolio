@@ -2,7 +2,6 @@
 color:
   primary: e88300
     # e88300 orange tone logo minus step red for website
-
     # f4c488 mid tone logo
     # ff8300 orange tone logo
     # fed136
@@ -18,5 +17,5 @@ font:
 
 # images on the sites
 images:
-  logo: 'img/logos/devakmakerij.png'
+  # logo: 'img/logos/devakmakerij.png'
   background: 'img/header-bg.png'
