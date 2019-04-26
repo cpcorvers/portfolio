@@ -198,7 +198,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kefa","Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     color: #{{ site.data.template.color.primary }};
     /* border: solid 2px;
     padding: 1px; */
