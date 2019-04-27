@@ -4,7 +4,7 @@ subtitle: Service Design
 layout: default
 modal-id: 1
 date: 2014-07-18
-img: dreams.png
+img: ineedabreak-thumbnail.jpg
 thumbnail: ineedabreak-thumbnail.jpg
 alt: image-alt
 project-date: April 2014
