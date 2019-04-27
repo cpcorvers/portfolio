@@ -2,9 +2,9 @@
 title: Satis-action
 subtitle: Design and Research
 layout: default
-modal-id: 3
+modal-id: 4
 date: 2018-06-01
-img: satisaction1-1.jpg
+img:
 thumbnail: satisaction-thumbnail.png
 alt: image-alt
 project-date: April 2018
