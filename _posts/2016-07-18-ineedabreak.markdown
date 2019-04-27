@@ -1,15 +1,15 @@
 ---
 title: I need a Break
-subtitle: Service Design
+subtitle: Study project
 layout: default
-modal-id: 2
-date: 2014-07-18
+modal-id: 3
+date: 2017-01-01
 img: ineedabreak-thumbnail.jpg
 thumbnail: ineedabreak-thumbnail.jpg
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Service Design
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: I need a break is developed during the elective EDL as a group assignment. Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
 
 ---
