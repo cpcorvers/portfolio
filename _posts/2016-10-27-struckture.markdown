@@ -5,7 +5,7 @@ layout: default
 modal-id: 4
 date: 2016-10-27
 img: struckture-1.jpg
-thumbnail: struckture.jpg
+thumbnail: struckture-thumbnail.png
 alt: image-alt
 project-date: October 2016
 client: Study project From Idea to Design
