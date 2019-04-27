@@ -5,7 +5,7 @@ layout: default
 modal-id: 3
 date: 2018-06-01
 img: satisaction1-1.jpg
-thumbnail: satisaction-actorslide.png
+thumbnail: satisaction-thumbnail.png
 alt: image-alt
 project-date: April 2018
 client: Provincie Noord-Brabant, Academie voor Beeldvorming, Veiligheidshuis Zuid-Holland Zuid, Koninklijke Landmacht
