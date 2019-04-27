@@ -2,7 +2,7 @@
 title: Struckture
 subtitle: Product Design
 layout: default
-modal-id: 4
+modal-id: 2
 date: 2016-10-27
 img: struckture-1.jpg
 thumbnail: struckture-thumbnail.png
