@@ -19,7 +19,7 @@ body {
 }
 
 p {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.75;
 }
 
@@ -82,7 +82,7 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #f7f7f7;
+    background-color: #{{ site.data.template.color.bg }};
 }
 
 .bg-darkest-gray {
@@ -365,7 +365,7 @@ section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
     font-family: {{ site.data.template.font.secondary }};
-    font-size: 16px;
+    font-size: 20px;
     font-style: italic;
     font-weight: 400;
 }
@@ -471,9 +471,9 @@ section h3.section-subheading {
     top: 0;
     bottom: 0;
     left: 40px;
-    width: 2px;
+    width: 6px;
     margin-left: -1.5px;
-    background-color: #f1f1f1;
+    background-color: #{{ site.data.template.color.timeline }};
 }
 
 .timeline>li {
@@ -521,7 +521,7 @@ section h3.section-subheading {
     width: 80px;
     height: 80px;
     margin-left: 0;
-    border: 7px solid #f1f1f1;
+    border: 6px solid #{{ site.data.template.color.timeline }};
     border-radius: 100%;
     text-align: center;
     color: #fff;
@@ -751,6 +751,8 @@ section#contact .text-danger {
 footer {
     padding: 25px 0;
     text-align: center;
+    background-image: url({{ site.data.template.images.background }});
+    color: #{{ site.data.template.color.secondary }};
 }
 
 footer span.copyright {
