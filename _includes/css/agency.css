@@ -24,7 +24,7 @@ p {
 }
 
 p.large {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 a,
@@ -198,7 +198,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+  /* font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive; */
+  font-family: {{ site.data.template.font.brand }};
     color: #{{ site.data.template.color.primary }};
     /* border: solid 2px;
     padding: 1px; */
