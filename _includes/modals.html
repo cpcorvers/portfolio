@@ -16,19 +16,30 @@
                             <hr class="star-primary">
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                             <p>{{ post.description }}</p>
+                            <hr class="star-primary">
                             <ul class="list-inline item-details">
-                                <li>Client:
+                                <li>Partner(s):
                                     <strong><a >{{ post.client }}</a>
                                     </strong>
                                 </li>
+                                <br><br>
                                 <li>Date:
                                     <strong><a >{{ post.project-date }}</a>
                                     </strong>
                                 </li>
+                                <br><br>
                                 <li>Service:
                                     <strong><a >{{ post.category }}</a>
                                     </strong>
                                 </li>
+                                <br><br>
+                                <li>Expertise areas:
+                                    <!-- <strong><a >{{ post.expertise-areas }}</a>
+                                    </strong> -->
+                                </li>
+                                <br><br>
+                                <img src="img/portfolio/{{ post.expertise-areas-img }}" class="img-areas img-centered" alt="{{ post.expertise-areas }}">
+
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>

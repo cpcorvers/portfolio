@@ -11,5 +11,7 @@ project-date: April 2014
 client: Start Bootstrap
 category: Service Design
 description: I need a break is developed during the elective EDL as a group assignment. Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+expertise-areas: tbd
+expertise-areas-img: areas_1.png
 
 ---

@@ -72,6 +72,13 @@ h6 {
   display: block;
 }
 
+.img-areas {
+  display: block;
+  width: 100% \9;
+  max-width: 50%;
+  height: auto
+}
+
 @media(min-width:768px){
   .img-brandlogo{
     max-height: 55px;
