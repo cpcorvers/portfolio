@@ -109,14 +109,15 @@ h6 {
     width: auto;
     display: block;
   }
+  .img-areas {
+    display: block;
+    width: 100% \9;
+    max-width: 50%;
+    height: auto
+  }
 }
 
-.img-areas {
-  display: block;
-  width: 100% \9;
-  max-width: 50%;
-  height: auto
-}
+
 
 .img-centered {
   margin: 0 auto;
