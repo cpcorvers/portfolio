@@ -6,24 +6,15 @@
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #{{ site.data.template.color.secondary-dark }
-}
-
-;
+  color: #{{ site.data.template.color.secondary-dark }};
 }
 
 .text-muted {
-  color: #{{ site.data.template.color.muted }
-}
-
-;
+  color: #{{ site.data.template.color.muted }};
 }
 
 .text-primary {
-  color: #{{ site.data.template.color.primary }
-}
-
-;
+  color: #{{ site.data.template.color.primary }};
 }
 
 p {
@@ -50,20 +41,14 @@ a.active {
 }
 
 a {
-  color: #{{ site.data.template.color.primary }
-}
-
-;
+  color: #{{ site.data.template.color.primary }};
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #{{ site.data.template.color.secondary }
-}
-
-;
+  color: #{{ site.data.template.color.secondary }};
 }
 
 h1,
@@ -73,14 +58,7 @@ h4,
 h5,
 h6 {
   text-transform: uppercase;
-
-  font-family: {
-      {
-      site.data.template.font.primary
-    }
-  }
-
-  ;
+  font-family: {{ site.data.template.font.primary }};
   font-weight: 700;
 }
 
@@ -124,10 +102,7 @@ h6 {
 }
 
 .bg-light-gray {
-  background-color: #{{ site.data.template.color.bg }
-}
-
-;
+  background-color: #{{ site.data.template.color.bg }};
 }
 
 .bg-darkest-gray {
@@ -135,25 +110,14 @@ h6 {
 }
 
 .btn-primary {
-  border-color: #{{ site.data.template.color.primary }
-}
-
-;
+  border-color: #{{ site.data.template.color.primary }};
 text-transform: uppercase;
 
 font-family: {
-    {
-    site.data.template.font.primary
-  }
-}
-
-;
+    { site.data.template.font.primary }};
 font-weight: 700;
 color: #fff;
-background-color: #{{ site.data.template.color.primary }
-}
-
-;
+background-color: #{{ site.data.template.color.primary }};
 }
 
 .btn-primary:hover,
@@ -161,15 +125,9 @@ background-color: #{{ site.data.template.color.primary }
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-  border-color: #{{ site.data.template.color.primary }
-}
-
-;
+  border-color: #{{ site.data.template.color.primary }};
 color: #fff;
-background-color: #{{ site.data.template.color.secondary }
-}
-
-;
+background-color: #{{ site.data.template.color.secondary }};
 }
 
 .btn-primary:active,
@@ -193,47 +151,26 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  border-color: #{{ site.data.template.color.primary }
-}
-
-;
-background-color: #{{ site.data.template.color.primary }
-}
-
-;
+  border-color: #{{ site.data.template.color.primary }};
+background-color: #{{ site.data.template.color.primary }};
 }
 
 .btn-primary .badge {
-  color: #{{ site.data.template.color.primary }
-}
-
-;
+  color: #{{ site.data.template.color.primary }};
 background-color: #fff;
 }
 
 .btn-xl {
   padding: 20px 40px;
-  border-color: #{{ site.data.template.color.primary }
-}
-
-;
+  border-color: #{{ site.data.template.color.primary }};
 border-radius: 3px;
 text-transform: uppercase;
 
-font-family: {
-    {
-    site.data.template.font.primary
-  }
-}
-
-;
+font-family: {{ site.data.template.font.primary }};
 font-size: 18px;
 font-weight: 700;
 color: #fff;
-background-color: #{{ site.data.template.color.primary }
-}
-
-;
+background-color: #{{ site.data.template.color.primary }};
 }
 
 .btn-xl:hover,
@@ -241,15 +178,9 @@ background-color: #{{ site.data.template.color.primary }
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-  border-color: #{{ site.data.template.color.primary }
-}
-
-;
+  border-color: #{{ site.data.template.color.primary }};
 color: #fff;
-background-color: #{{ site.data.template.color.secondary }
-}
-
-;
+background-color: #{{ site.data.template.color.secondary }};
 }
 
 .btn-xl:active,
@@ -273,21 +204,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-  border-color: #{{ site.data.template.color.primary }
-}
-
-;
-background-color: #{{ site.data.template.color.primary }
-}
-
-;
+  border-color: #{{ site.data.template.color.primary }};
+background-color: #{{ site.data.template.color.primary }};
 }
 
 .btn-xl .badge {
-  color: #{{ site.data.template.color.primary }
-}
-
-;
+  color: #{{ site.data.template.color.primary }};
 background-color: #fff;
 }
 
@@ -300,17 +222,8 @@ background-color: #fff;
 .navbar-default .navbar-brand {
 
   /* font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive; */
-  font-family: {
-      {
-      site.data.template.font.brand
-    }
-  }
-
-  ;
-  color: #{{ site.data.template.color.primary }
-}
-
-;
+  font-family: {{ site.data.template.font.brand }};
+  color: #{{ site.data.template.color.primary }};
 /* border: solid 2px;
     padding: 1px; */
 }
@@ -319,10 +232,7 @@ background-color: #fff;
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-  color: #{{ site.data.template.color.secondary }
-}
-
-;
+  color: #{{ site.data.template.color.secondary }};
 }
 
 .navbar-default .navbar-collapse {
@@ -330,14 +240,8 @@ background-color: #fff;
 }
 
 .navbar-default .navbar-toggle {
-  border-color: #{{ site.data.template.color.primary }
-}
-
-;
-background-color: #{{ site.data.template.color.primary }
-}
-
-;
+  border-color: #{{ site.data.template.color.primary }};
+background-color: #{{ site.data.template.color.primary }};
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -346,22 +250,13 @@ background-color: #{{ site.data.template.color.primary }
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #{{ site.data.template.color.primary }
-}
-
-;
+  background-color: #{{ site.data.template.color.primary }};
 }
 
 .navbar-default .nav li a {
   text-transform: uppercase;
 
-  font-family: {
-      {
-      site.data.template.font.primary
-    }
-  }
-
-  ;
+  font-family: {{ site.data.template.font.primary }};
   font-weight: 400;
   letter-spacing: 1px;
   color: #fff;
@@ -373,28 +268,19 @@ background-color: #{{ site.data.template.color.primary }
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
   outline: 0;
-  color: #{{ site.data.template.color.primary }
-}
-
-;
+  color: #{{ site.data.template.color.primary }};
 }
 
 .navbar-default .navbar-nav>.active>a {
   border-radius: 0;
   color: #fff;
-  background-color: #{{ site.data.template.color.primary }
-}
-
-;
+  background-color: #{{ site.data.template.color.primary }};
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
   color: #fff;
-  background-color: #{{ site.data.template.color.secondary }
-}
-
-;
+  background-color: #{{ site.data.template.color.secondary }};
 }
 
 @media(min-width:768px) {
@@ -660,10 +546,7 @@ section h3.section-subheading {
   left: 40px;
   width: 6px;
   margin-left: -1.5px;
-  background-color: #{{ site.data.template.color.timeline }
-}
-
-;
+  background-color: #{{ site.data.template.color.timeline }};
 }
 
 .timeline>li {
@@ -711,17 +594,11 @@ section h3.section-subheading {
   width: 80px;
   height: 80px;
   margin-left: 0;
-  border: 6px solid #{{ site.data.template.color.timeline }
-}
-
-;
+  border: 6px solid #{{ site.data.template.color.timeline }};
 border-radius: 100%;
 text-align: center;
 color: #fff;
-background-color: #{{ site.data.template.color.primary }
-}
-
-;
+background-color: #{{ site.data.template.color.primary }};
 }
 
 .timeline>li .timeline-image h4 {
@@ -908,23 +785,14 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-  border-color: #{{ site.data.template.color.primary }
-}
-
-;
+  border-color: #{{ site.data.template.color.primary }};
 box-shadow: none;
 }
 
 section#contact::-webkit-input-placeholder {
   text-transform: uppercase;
 
-  font-family: {
-      {
-      site.data.template.font.primary
-    }
-  }
-
-  ;
+  font-family: {{ site.data.template.font.primary }};
   font-weight: 700;
   color: #bbb;
 }
@@ -932,13 +800,7 @@ section#contact::-webkit-input-placeholder {
 section#contact:-moz-placeholder {
   text-transform: uppercase;
 
-  font-family: {
-      {
-      site.data.template.font.primary
-    }
-  }
-
-  ;
+  font-family: {{ site.data.template.font.primary }};
   font-weight: 700;
   color: #bbb;
 }
@@ -946,13 +808,7 @@ section#contact:-moz-placeholder {
 section#contact::-moz-placeholder {
   text-transform: uppercase;
 
-  font-family: {
-      {
-      site.data.template.font.primary
-    }
-  }
-
-  ;
+  font-family: {{ site.data.template.font.primary }};
   font-weight: 700;
   color: #bbb;
 }
@@ -960,13 +816,7 @@ section#contact::-moz-placeholder {
 section#contact:-ms-input-placeholder {
   text-transform: uppercase;
 
-  font-family: {
-      {
-      site.data.template.font.primary
-    }
-  }
-
-  ;
+  font-family: {{ site.data.template.font.primary }};
   font-weight: 700;
   color: #bbb;
 }
@@ -979,23 +829,14 @@ footer {
   padding: 25px 0;
   text-align: center;
   background-image: url({{ site.data.template.images.background }});
-  color: #{{ site.data.template.color.secondary }
-}
-
-;
+  color: #{{ site.data.template.color.secondary }};
 }
 
 footer span.copyright {
   text-transform: uppercase;
   text-transform: none;
 
-  font-family: {
-      {
-      site.data.template.font.primary
-    }
-  }
-
-  ;
+  font-family: {{ site.data.template.font.primary }};
   line-height: 40px;
 }
 
@@ -1004,13 +845,7 @@ footer ul.quicklinks {
   text-transform: uppercase;
   text-transform: none;
 
-  font-family: {
-      {
-      site.data.template.font.primary
-    }
-  }
-
-  ;
+  font-family: {{ site.data.template.font.primary }};
   line-height: 40px;
 }
 
@@ -1036,10 +871,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #{{ site.data.template.color.primary }
-}
-
-;
+  background-color: #{{ site.data.template.color.primary }};
 }
 
 .btn:focus,
@@ -1129,18 +961,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
   text-shadow: none;
-  background: #{{ site.data.template.color.primary }
-}
-
-;
+  background: #{{ site.data.template.color.primary }};
 }
 
 ::selection {
   text-shadow: none;
-  background: #{{ site.data.template.color.primary }
-}
-
-;
+  background: #{{ site.data.template.color.primary }};
 }
 
 img::selection {
@@ -1152,8 +978,5 @@ img::-moz-selection {
 }
 
 body {
-  webkit-tap-highlight-color: #{{ site.data.template.color.primary }
-}
-
-;
+  webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
