@@ -2,8 +2,13 @@
 title: Citizens participation
 subtitle: Study project
 layout: default
-modal-id: 4
+modal-id: 2
 date: 2017-01-01
+creativity-aesthetics: true
+technology-realization: true
+user-society: true
+math-data-computing: true
+business-entrepreneurship: true
 img: roundicons.png
 thumbnail: roundicons-thumbnail.png
 alt: image-alt

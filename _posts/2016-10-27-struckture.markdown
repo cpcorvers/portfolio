@@ -4,6 +4,11 @@ subtitle: Pre-master project
 layout: default
 modal-id: 2
 date: 2016-10-27
+creativity-aesthetics: true
+technology-realization: true
+user-society: true
+math-data-computing: true
+business-entrepreneurship: true
 img: struckture-1.jpg
 thumbnail: struckture-thumbnail.png
 alt: image-alt

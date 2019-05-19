@@ -10,28 +10,16 @@
 #f1f1f1;
 color:
   primary:     ff6000;   #ff6000;
-    #AB9785;
-    #878787;
-    #ababab;
-    #736659;
-    #e88300 orange tone logo minus step red for website
-    #f4c488 mid tone logo
-    #ff8300 orange tone logo
-    #fed136
   secondary: 8d8d8d; #8d8d8d;
-    #f2f2f2
-    #D1C9B3
-    #fda355
-    #fec503
   secondary-dark: 3b3b3b #3b3b3b; #color body text
   muted: 8d8d8d; #8d8d8d;
   timeline: ff6000 #ff6000;
   bg: f7f7f7; #c1c1c1 #f7f7f7;
 # Font Families
 font:
-  primary:        'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
+  primary:        '"Montserrat", "Helvetica Neue",Helvetica,Arial,sans-serif'
   secondary:      '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
-  brand:  'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif' #'"Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive'
+  brand:  '"Montserrat", "Helvetica Neue",Helvetica,Arial,sans-serif' #'"Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive'
 # images on the sites
 images:
   # logo:         'img/logos/devakmakerij.png'

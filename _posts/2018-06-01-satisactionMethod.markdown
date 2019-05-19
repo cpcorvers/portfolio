@@ -4,6 +4,11 @@ subtitle: First year master project
 layout: default
 modal-id: 4
 date: 2018-06-01
+creativity-aesthetics: true
+technology-realization: true
+user-society: true
+math-data-computing: true
+business-entrepreneurship: true
 img: satisaction-thumbnail.jpg
 thumbnail: satisaction-thumbnail.jpg
 alt: image-alt

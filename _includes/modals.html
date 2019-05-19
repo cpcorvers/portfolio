@@ -19,26 +19,56 @@
                             <hr class="star-primary">
                             <ul class="list-inline item-details">
                                 <li>Partner(s):
+                                  <br>
                                     <strong><a >{{ post.client }}</a>
                                     </strong>
                                 </li>
                                 <br><br>
                                 <li>Date:
+                                  <br>
                                     <strong><a >{{ post.project-date }}</a>
                                     </strong>
                                 </li>
                                 <br><br>
                                 <li>Service:
+                                  <br>
                                     <strong><a >{{ post.category }}</a>
                                     </strong>
                                 </li>
                                 <br><br>
                                 <li>Expertise areas:
-                                    <!-- <strong><a >{{ post.expertise-areas }}</a>
-                                    </strong> -->
+                                  <br>
+                                  {% if post.creativity-aesthetics == true %}
+                                    <strong><a > Creativity and Aesthetics </a></strong>
+                                    <br>
+                                  {% endif %}
+
+                                  {% if post.technology-realization == true %}
+                                    <strong><a > Technology and Realization</a></strong>
+                                    <br>
+                                  {% endif %}
+
+                                  {% if post.user-society == true %}
+                                    <strong><a >User and Society</a></strong>
+                                    <br>
+                                  {% endif %}
+
+                                  {% if post.math-data-computing == true %}
+                                    <strong><a >Math, Data and Computing</a></strong>
+                                    <br>
+                                  {% endif %}
+
+                                  {% if post.business-entrepreneurship == true %}
+                                    <strong><a >Business and Entrepreneurship</a></strong>
+                                    <br>
+                                  {% endif %}
+
+                                <!-- </li><li>Expertise areas:
+                                  <br>
+                                  <strong><a >{{ post.expertise-areas }}</a>
+                                  </strong>
                                 </li>
-                                <br><br>
-                                <img src="img/portfolio/{{ post.expertise-areas-img }}" class="img-areas img-centered" alt="{{ post.expertise-areas }}">
+                                <br><br> -->
 
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>

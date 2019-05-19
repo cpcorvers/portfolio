@@ -2,8 +2,13 @@
 title: Perspective
 subtitle: Final Master Project
 layout: default
-modal-id: 6
+modal-id: 1
 date: 2019-03-07
+creativity-aesthetics: true
+technology-realization: true
+user-society: true
+math-data-computing: true
+business-entrepreneurship: true
 img: roundicons.png
 thumbnail: roundicons-thumbnail.png
 alt: image-alt

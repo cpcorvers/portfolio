@@ -4,6 +4,11 @@ subtitle: Theoretical
 layout: default
 modal-id: 1
 date: 2018-07-01
+creativity-aesthetics: true
+technology-realization: true
+user-society: true
+math-data-computing: true
+business-entrepreneurship: true
 img: reportMoralJustice.jpg
 thumbnail: roundicons-thumbnail.png
 alt: image-alt

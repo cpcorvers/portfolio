@@ -2,8 +2,13 @@
 title: Branding
 subtitle: Logo design
 layout: default
-modal-id: 5
+modal-id: 1
 date: 2018-07-14
+creativity-aesthetics: true
+technology-realization: true
+user-society: true
+math-data-computing: true
+business-entrepreneurship: true
 img: logo-fcp.png
 thumbnail: startup-framework-thumbnail.png
 alt: image-alt
