@@ -17,9 +17,9 @@ color:
   bg: f7f7f7; #c1c1c1 #f7f7f7;
 # Font Families
 font:
-  primary:        '"Montserrat", "Helvetica Neue",Helvetica,Arial,sans-serif'
+  primary:        'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
   secondary:      '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
-  brand:  '"Montserrat", "Helvetica Neue",Helvetica,Arial,sans-serif' #'"Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive'
+  brand:  'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif' #'"Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive'
 # images on the sites
 images:
   # logo:         'img/logos/devakmakerij.png'
