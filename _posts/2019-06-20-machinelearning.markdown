@@ -1,9 +1,9 @@
 ---
 title: Machine learning
-subtitle: Study project
+subtitle: Elective
 layout: default
-modal-id: 1
-date: 2017-01-01
+modal-id: 2
+date: 2019-06-02
 creativity-aesthetics: true
 technology-realization: true
 user-society: true
@@ -13,8 +13,8 @@ img: roundicons.png
 thumbnail: roundicons-thumbnail.png
 alt: image-alt
 project-date: April 2014
-client: Start Bootstrap
-category: Service Design
+client:
+category: [creativity-aesthetics, technology-realization, user-society, math-data-computing, business-entrepreneurship]
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-expertise-areas: tbd
+
 ---

@@ -18,48 +18,50 @@
                             <p>{{ post.description }}</p>
                             <hr class="star-primary">
                             <ul class="list-inline item-details">
+                              {% if post.client != null %}
                                 <li>Partner(s):
                                   <br>
-                                    <strong><a >{{ post.client }}</a>
+                                    <strong><a1 >{{ post.client }}</a1>
                                     </strong>
                                 </li>
                                 <br><br>
+                              {% endif %}
                                 <li>Date:
                                   <br>
-                                    <strong><a >{{ post.project-date }}</a>
+                                    <strong><a1 >{{ post.project-date }}</a1 >
                                     </strong>
                                 </li>
-                                <br><br>
+                                <!-- <br><br>
                                 <li>Service:
                                   <br>
                                     <strong><a >{{ post.category }}</a>
                                     </strong>
-                                </li>
+                                </li> -->
                                 <br><br>
                                 <li>Expertise areas:
                                   <br>
                                   {% if post.creativity-aesthetics == true %}
-                                    <strong><a > Creativity and Aesthetics </a></strong>
+                                    <strong><a1 > Creativity and Aesthetics </a1></strong>
                                     <br>
                                   {% endif %}
 
                                   {% if post.technology-realization == true %}
-                                    <strong><a > Technology and Realization</a></strong>
+                                    <strong><a1 > Technology and Realization</a1></strong>
                                     <br>
                                   {% endif %}
 
                                   {% if post.user-society == true %}
-                                    <strong><a >User and Society</a></strong>
+                                    <strong><a1 >User and Society</a1></strong>
                                     <br>
                                   {% endif %}
 
                                   {% if post.math-data-computing == true %}
-                                    <strong><a >Math, Data and Computing</a></strong>
+                                    <strong><a1 >Math, Data and Computing</a1></strong>
                                     <br>
                                   {% endif %}
 
                                   {% if post.business-entrepreneurship == true %}
-                                    <strong><a >Business and Entrepreneurship</a></strong>
+                                    <strong><a1 >Business and Entrepreneurship</a1></strong>
                                     <br>
                                   {% endif %}
 

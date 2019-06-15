@@ -40,6 +40,14 @@ a.active {
   outline: 0;
 }
 
+a1,
+a1:hover,
+a1:focus,
+a1:active,
+a1.active {
+  outline: 0;
+  color: #{{ site.data.template.color.primary }};
+}
 a {
   color: #{{ site.data.template.color.primary }};
 }
@@ -61,7 +69,11 @@ h6 {
   font-family: {{ site.data.template.font.primary }};
   font-weight: 700;
 }
-
+h10 {
+  text-transform: uppercase;
+  font-family: {{ site.data.template.font.primary }};
+  font-weight: 300;
+}
 .img-brandlogo {
   margin: 20px;
   float: left;

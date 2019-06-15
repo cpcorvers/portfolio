@@ -5,25 +5,16 @@
       <div class="col-lg-12 text-center">
         <h2 class="section-heading">Expertise areas</h2>
         <h3 class="section-subheading text-muted">
-          Creativity and Aesthetics (CA)
-          <br>
-          Technology and Realization (TR)
-          <br>
-          User and Society (US)
-          <br>
-          Math, Data and Computing (MDC)
-          <br>
-          Business and Entrepreneurship (BE)
-          <br>
+
         </h3>
 
         <div class="row text-center">
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
-              <i class="fa fa-square-o fa-stack-2x text-primary"></i>
+              <i class="fa fa-square fa-stack-2x text-primary"></i>
               <!-- <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i> -->
               <i class="fa fa-stack ">
-                <h1>CA</h1>
+                <h3 style="margin: 22px; color: white">C<br>A</h3>
               </i>
             </span>
             <h4 class="service-heading">Creativity and Aesthetics</h4>
@@ -34,10 +25,10 @@
 
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
-              <i class="fa fa-square-o fa-stack-2x text-primary"></i>
+              <i class="fa fa-square fa-stack-2x text-primary"></i>
               <!-- <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i> -->
               <i class="fa fa-stack">
-                <h1>TR</h1>
+                <h3 style="margin: 22px; color: white">T<br>R</h3>
               </i>
             </span>
             <h4 class="service-heading">Technology and Realization</h4>
@@ -48,10 +39,10 @@
 
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
-              <i class="fa fa-square-o fa-stack-2x text-primary"></i>
+              <i class="fa fa-square fa-stack-2x text-primary"></i>
               <!-- <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i> -->
               <i class="fa fa-stack ">
-                <h1>US</h1>
+                <h3 style="margin: 22px; color: white">U<br>S</h3>
               </i>
             </span>
             <h4 class="service-heading">User and Society</h4>
@@ -62,10 +53,10 @@
 
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
-              <i class="fa fa-square-o fa-stack-2x text-primary"></i>
+              <i class="fa fa-square fa-stack-2x text-primary"></i>
               <!-- <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i> -->
               <i class="fa fa-stack ">
-                <h1>MD<br>C</h1>
+                <h3 style="margin: 9px; color: white">M<br>D<br>C</h3>
               </i>
             </span>
             <h4 class="service-heading">Math, Data and Computing</h4>
@@ -77,29 +68,65 @@
 
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
-              <i class="fa fa-square-o fa-stack-2x text-primary"></i>
+              <i class="fa fa-square fa-stack-2x text-primary"></i>
               <!-- <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i> -->
               <i class="fa fa-stack ">
-                <h1>BE</h1>
+                <h3 style="margin: 22px; color: white">B<br>E</h3>
               </i>
             </span>
             <h4 class="service-heading">Business and Entrepreneurship</h4>
             <p class="text-muted"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
               ea commodo consequat.
             </p>
+
           </div>
 
         </div>
       </div>
 
-      <p class="large text-muted">
+      <!-- <p class="large text-muted">
 
         <body>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
           consequat.
           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </body>
-      </p>
+      </p> -->
+
+      <!-- {% for category in site.categories %} -->
+        <!-- <h3>{{ category[0] }}</h3> -->
+        <!-- <ul> -->
+          <!-- {% for post in category[1] %} -->
+          <!-- {% if post.business-entrepreneurship == true %} -->
+            <!-- <li> -->
+              <!-- <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">{{ post.title }}</a> -->
+            <!-- </li> -->
+            <!-- href="#portfolioModal{{ post.modal-id }}"
+            href="{{ post.url }}" -->
+          <!-- {% endif %} -->
+          <!-- {% endfor %} -->
+        <!-- </ul> -->
+      <!-- {% endfor %} -->
+
+
+      <!-- <div class="row">
+      {% for post in site.posts %}
+          <div class="col-md-4 col-sm-6 portfolio-item">
+              <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                  <div class="portfolio-hover">
+                      <div class="portfolio-hover-content">
+                          <i class="fa fa-plus fa-3x"></i>
+                      </div>
+                  </div>
+                  <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
+              </a>
+              <div class="portfolio-caption">
+                  <h4>{{ post.title }}</h4>
+                  <p class="text-muted">{{ post.subtitle }}</p>
+              </div>
+          </div>
+      {% endfor %}
+      </div> -->
     </div>
   </div>
 </section>
