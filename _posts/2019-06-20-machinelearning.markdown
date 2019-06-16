@@ -3,7 +3,7 @@ title: Machine learning
 subtitle: Elective
 layout: default
 modal-id: 2
-date: 2019-06-02
+date: 2019-12-01
 creativity-aesthetics: true
 technology-realization: true
 user-society: true
