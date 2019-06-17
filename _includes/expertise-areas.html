@@ -9,6 +9,7 @@
         </h3>
 
         <div class="row text-center">
+          <div class="col-md-1"></div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fa fa-square fa-stack-2x text-primary"></i>
@@ -18,10 +19,19 @@
               </i>
             </span>
             <h4 class="service-heading">Creativity and Aesthetics</h4>
-            <p class="text-muted"> quote of Donald Norman or Steve Jobs
+            <p class="text-muted">
+              <!-- <q cite="Norman p.139">Understanding is what transforms complex systems into simple ones.</q>
+              <q cite="Norman p.39">..without a relevant conceptual model, we lack guidance. And when that happens we complain: Why does this have to be so complicated?</q> -->
+              <!-- <q cite="Norman p.40">What makes a device simple is whether the user had a good conceptual model of how it operates</q> Donald Norman (2011, p.40)
+              <br><br>
+              <q cite="">A carpenter uses a beautifull wooden plate for the rear of the furniture, eventhough nobody will see it. To sleep well the aesthetics must be totaly implemented</q> Steve Jobs <br>(Isaacson, 2011, p.169)
+              <br><br> -->
+              For me creativity is the ability to understand the root problem and to create a sollution which can be operated without complications.
+              If the experience and funtionality of the designed system is integrated in all its parts, I would call it aestethics.
+              (Norman, 2011; Isaacson, 2011)
             </p>
           </div>
-
+          <div class="col-md-2"></div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fa fa-square fa-stack-2x text-primary"></i>
@@ -31,10 +41,22 @@
               </i>
             </span>
             <h4 class="service-heading">Technology and Realization</h4>
-            <p class="text-muted"> quote of Richard Sennett
+            <p class="text-muted">
+              <!-- <q cite="">high levers of technical skill can be reached only by people with fixed objective standards of truth...
+                I have to be willing to commit error in order to get them right.</q> Richard Sennett (p.159-160)
+              <br><br>
+              <q cite="">..that extend our given physical and mental capabilities.</q> Koert van Mensvoort (2013, p.13)
+              <br><br> -->
+              For me technology is an imaginary reality of a homo sapien to enlarge its capabilities (Harari, 2017).
+              Realization is the craftmenship to create this reality in a way other homo sapiens believe in this imaginary reality in the spiritual, mental or physical dimensions.
+              (Sennett, 2008; Mensvoort, 2013)
+              <br><br>
             </p>
           </div>
-
+          <div class="col-md-1"></div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-1"></div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fa fa-square fa-stack-2x text-primary"></i>
@@ -44,10 +66,14 @@
               </i>
             </span>
             <h4 class="service-heading">User and Society</h4>
-            <p class="text-muted"> quote of ...
+            <p class="text-muted">
+              <!-- <q cite="">Never solve the problem the client has asked you to solve, they are usually responding to the symptoms</q> Donald Norman (2011, p.148). -->
+              <!-- <br><br> -->
+              For me this is about understanding individuals interacting with others and systems by observations and engagement.
+              Finding the root problem in someones life and satisfier their needs, interests, rights and wishes eventhough they did not know themeselves (Max-neef, et all, 1992; Governance and Integrity, 2008, Norman, 2011).
             </p>
           </div>
-
+          <div class="col-md-2"></div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fa fa-square fa-stack-2x text-primary"></i>
@@ -57,11 +83,20 @@
               </i>
             </span>
             <h4 class="service-heading">Math, Data and Computing</h4>
-            <p class="text-muted"> quote of ...
+            <p class="text-muted">
+              <!-- <q cite="">implement data structures and algorithms into designed products and services using data processing and computing</q> (Eindhoven University of Technology, 2019) -->
+              <!-- <br><br> -->
+              For me this area is all about data collection, analysis, visualisation, representation and modeling towards a more in-depth and enriche understanding of the root problem and context of the design topic
+              by analog sketching and modeling and digital computer coding data-handling and visualisation.
+              (Eindhoven University of Technology, 2019)
+              <br><br>
             </p>
           </div>
+          <div class="col-md-1"></div>
+        </div>
 
-
+        <div class="row text-center">
+          <div class="col-md-1"></div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fa fa-square fa-stack-2x text-primary"></i>
@@ -71,12 +106,33 @@
               </i>
             </span>
             <h4 class="service-heading">Business and Entrepreneurship</h4>
-            <p class="text-muted"> quote of Steve Jobs
+            <p class="text-muted">
+              Economics in the transformation paradigm ask other principles like system thinking, network engagement and value sharing.
+              These principles ask more responsible and social engaged behaviour from profesionals in both private and public organisations.
+              For me this area is all about coalitions of collaborating organisations with different ethics, cultures and visions.
+              The designer needs to navigate in an emerging ecosystem on different levels of society to create value for the involved people and organisations.
             </p>
 
           </div>
-
+          <div class="col-md-2"></div>
+          <div class="col-md-4"></div>
+          <div class="col-md-1"></div>
         </div>
+
+        <div class="row text-center">
+          {% for category in site.categories %}
+          <h3>{{ category[0] }}</h3>
+          <ul class="list-inline item-details">
+            {% for post in category[1] %}
+            <li>
+              <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">{{ post.title }}</a>
+            </li>
+
+            {% endfor %}
+          </ul>
+          {% endfor %}
+        </div>
+
       </div>
 
       <!-- <p class="large text-muted">
@@ -88,20 +144,7 @@
         </body>
       </p> -->
 
-      <!-- {% for category in site.categories %} -->
-        <!-- <h3>{{ category[0] }}</h3> -->
-        <!-- <ul> -->
-          <!-- {% for post in category[1] %} -->
-          <!-- {% if post.business-entrepreneurship == true %} -->
-            <!-- <li> -->
-              <!-- <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">{{ post.title }}</a> -->
-            <!-- </li> -->
-            <!-- href="#portfolioModal{{ post.modal-id }}"
-            href="{{ post.url }}" -->
-          <!-- {% endif %} -->
-          <!-- {% endfor %} -->
-        <!-- </ul> -->
-      <!-- {% endfor %} -->
+
 
 
       <!-- <div class="row">
