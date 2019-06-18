@@ -70,7 +70,7 @@
               <!-- <q cite="">Never solve the problem the client has asked you to solve, they are usually responding to the symptoms</q> Donald Norman (2011, p.148). -->
               <!-- <br><br> -->
               For me this is about understanding individuals interacting with others and systems by observations and engagement.
-              Finding the root problem in someones life and satisfier their needs, interests, rights and wishes eventhough they did not know themeselves (Max-neef, et all, 1992; Governance and Integrity, 2008, Norman, 2011).
+              Finding the root problem in someones life and satisfy their needs, interests, rights and wishes eventhough they did not know themeselves (Max-neef, et all, 1992; Governance and Integrity, 2008, Norman, 2011).
             </p>
           </div>
           <div class="col-md-2"></div>
@@ -120,18 +120,23 @@
         </div>
 
         <div class="row text-center">
+          <div class="col-md-3"></div>
+          <div class="col-md-6">
+            <br><br>
+            <h4>Projects classified by expertise areas:</h4>
           {% for category in site.categories %}
-          <h3>{{ category[0] }}</h3>
+            <h4 class="text-muted">{{ category[0] }}</h4>
           <ul class="list-inline item-details">
             {% for post in category[1] %}
             <li>
               <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">{{ post.title }}</a>
             </li>
-
             {% endfor %}
-          </ul>
+
+          </ul><br>
           {% endfor %}
         </div>
+</div>          <div class="col-md-3"></div>
 
       </div>
 
