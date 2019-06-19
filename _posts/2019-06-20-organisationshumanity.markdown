@@ -1,5 +1,5 @@
 ---
-title: Organizations
+title: Organisations
 subtitle: Elective
 layout: default
 modal-id: 6
