@@ -12,6 +12,8 @@ business-entrepreneurship: true
 img: otherseyes-handpicture2.jpg
 thumbnail: otherseyes-thumbnail.jpg
 alt: OTHERs EYEs
+documents: 20190613-FMP-Report-v1.0.pdf
+documents-name: FMP report cpcorvers v1
 project-date: July 2019
 client: Zorg- en Veiligheidshuis
 category: [creativity-aesthetics, technology-realization, user-society, math-data-computing, business-entrepreneurship]

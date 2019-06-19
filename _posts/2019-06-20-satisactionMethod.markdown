@@ -12,6 +12,8 @@ business-entrepreneurship: false
 img: satisaction-research-workshop.jpg
 thumbnail: satisaction-research-workshop-thumbnail.jpg
 alt: image-alt
+documents: 20180412-report-m12-project-cpcorvers-v3.1.pdf
+documents-name: M12 report v3.1
 project-date: April 2018
 client: Veiligheidshuis Zuid-Holland Zuid<br>Koninklijke Landmacht
 category: [creativity-aesthetics, technology-realization, user-society, math-data-computing]
