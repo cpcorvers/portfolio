@@ -9,7 +9,7 @@ technology-realization: true
 user-society: true
 math-data-computing: true
 business-entrepreneurship: false
-img: satisaction-research-workshop.jpg
+img: satisaction-research-workshop.JPG
 thumbnail: satisaction-research-workshop-thumbnail.jpg
 alt: image-alt
 documents: 20180412-report-m12-project-cpcorvers-v3.1.pdf
