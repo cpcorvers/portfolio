@@ -1,4 +1,6 @@
-This site is published via Github on https://cpcorvers.github.io/portfolio/
+This site was my first portfolio setup designated for the study Industrial Desing at Eindhoven University of Technology in 2019. 
+Visit my most recent portfolio at https://www.cpcorvers.nl
+
 
 Agency Jekyll theme
 ====================
