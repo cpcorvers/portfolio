@@ -1,4 +1,5 @@
 This site was my first portfolio setup designated for the study Industrial Desing at Eindhoven University of Technology in 2019. 
+Visit my first portfolio at https://cpcorvers.github.io/portfolio/
 Visit my most recent portfolio at https://www.cpcorvers.nl
 
 
